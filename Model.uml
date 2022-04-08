@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Model</OriginalElement>
+  <nodes>
+    <node x="452.0" y="985.0">Model.Professor</node>
+    <node x="0.0" y="781.0">Model.BrownAmphora</node>
+    <node x="0.0" y="0.0">Model.Board</node>
+    <node x="513.0" y="781.0">Model.GreenAmphora</node>
+    <node x="279.0" y="0.0">Model.Player</node>
+    <node x="148.0" y="985.0">Model.Digger</node>
+    <node x="269.0" y="985.0">Model.Archaeologist</node>
+    <node x="0.0" y="985.0">Model.Assistant</node>
+    <node x="174.0" y="781.0">Model.RedAmphora</node>
+    <node x="870.0" y="781.0">Model.BlueAmphora</node>
+    <node x="1913.5" y="609.0">Model.Tiles</node>
+    <node x="1348.0" y="781.0">Model.YellowMosaic</node>
+    <node x="687.0" y="781.0">Model.PurpleAmphora</node>
+    <node x="210.5" y="857.0">Model.Character</node>
+    <node x="2377.0" y="781.0">Model.Sphinx</node>
+    <node x="2498.0" y="781.0">Model.Caryatid</node>
+    <node x="1522.0" y="781.0">Model.SmallBottomSkeleton</node>
+    <node x="2168.0" y="781.0">Model.SmallTopSkeleton</node>
+    <node x="1976.0" y="781.0">Model.BigTopSkeleton</node>
+    <node x="1035.0" y="781.0">Model.RedMosaic</node>
+    <node x="330.0" y="781.0">Model.YellowAmphora</node>
+    <node x="1183.0" y="781.0">Model.GreenMosaic</node>
+    <node x="625.0" y="857.0">Model.Thief</node>
+    <node x="2117.0686507936507" y="690.0">Model.Landslide</node>
+    <node x="1758.0" y="781.0">Model.BigBottomSkeleton</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.GreenMosaic" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="1683.5" y="1291.0" />
+      <point x="1386.875" y="1291.0" />
+      <point x="8.625" y="15.5" />
+    </edge>
+    <edge source="Model.BigTopSkeleton" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="2679.0" y="1231.0" />
+      <point x="1421.375" y="1231.0" />
+      <point x="43.125" y="15.5" />
+    </edge>
+    <edge source="Model.Digger" target="Model.Character">
+      <point x="0.0" y="-27.5" />
+      <point x="198.5" y="965.0" />
+      <point x="258.5" y="965.0" />
+      <point x="-16.0" y="39.0" />
+    </edge>
+    <edge source="Model.SmallBottomSkeleton" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="1483.0" y="1301.0" />
+      <point x="1381.125" y="1301.0" />
+      <point x="2.875" y="15.5" />
+    </edge>
+    <edge source="Model.PurpleAmphora" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="942.5" y="1281.0" />
+      <point x="1363.875" y="1281.0" />
+      <point x="-14.375" y="15.5" />
+    </edge>
+    <edge source="Model.BlueAmphora" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="2500.5" y="1241.0" />
+      <point x="1415.625" y="1241.0" />
+      <point x="37.375" y="15.5" />
+    </edge>
+    <edge source="Model.YellowMosaic" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="590.0" y="1261.0" />
+      <point x="1352.375" y="1261.0" />
+      <point x="-25.875" y="15.5" />
+    </edge>
+    <edge source="Model.SmallTopSkeleton" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="1870.5" y="1281.0" />
+      <point x="1392.625" y="1281.0" />
+      <point x="14.375" y="15.5" />
+    </edge>
+    <edge source="Model.BrownAmphora" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="77.0" y="1231.0" />
+      <point x="1335.125" y="1231.0" />
+      <point x="-43.125" y="15.5" />
+    </edge>
+    <edge source="Model.Assistant" target="Model.Character">
+      <point x="0.0" y="-27.5" />
+      <point x="64.0" y="955.0" />
+      <point x="226.5" y="955.0" />
+      <point x="-48.0" y="39.0" />
+    </edge>
+    <edge source="Model.Archaeologist" target="Model.Character">
+      <point x="0.0" y="-27.5" />
+      <point x="350.5" y="965.0" />
+      <point x="290.5" y="965.0" />
+      <point x="16.0" y="39.0" />
+    </edge>
+    <edge source="Model.BigBottomSkeleton" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="394.0" y="1251.0" />
+      <point x="1346.625" y="1251.0" />
+      <point x="-31.625" y="15.5" />
+    </edge>
+    <edge source="Model.Caryatid" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="2044.5" y="1271.0" />
+      <point x="1398.375" y="1271.0" />
+      <point x="20.125" y="15.5" />
+    </edge>
+    <edge source="Model.GreenAmphora" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="764.0" y="1271.0" />
+      <point x="1358.125" y="1271.0" />
+      <point x="-20.125" y="15.5" />
+    </edge>
+    <edge source="Model.Professor" target="Model.Character">
+      <point x="0.0" y="-27.5" />
+      <point x="516.0" y="955.0" />
+      <point x="322.5" y="955.0" />
+      <point x="48.0" y="39.0" />
+    </edge>
+    <edge source="Model.RedMosaic" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="1108.0" y="1291.0" />
+      <point x="1369.625" y="1291.0" />
+      <point x="-8.625" y="15.5" />
+    </edge>
+    <edge source="Model.RedAmphora" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="2340.0" y="1251.0" />
+      <point x="1409.875" y="1251.0" />
+      <point x="31.625" y="15.5" />
+    </edge>
+    <edge source="Model.Landslide" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="2181.0686507936507" y="670.0" />
+      <point x="1977.9" y="670.0" />
+      <point x="18.40000000000009" y="15.5" />
+    </edge>
+    <edge source="Model.Sphinx" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="224.5" y="1241.0" />
+      <point x="1340.875" y="1241.0" />
+      <point x="-37.375" y="15.5" />
+    </edge>
+    <edge source="Model.YellowAmphora" target="Model.Tiles">
+      <point x="0.0" y="-15.5" />
+      <point x="1273.5" y="1301.0" />
+      <point x="1375.375" y="1301.0" />
+      <point x="-2.875" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.41719155242682476" x="1339.5" y="650.5" />
+  <SelectedNodes>
+    <node>Model.Professor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,1 @@
+Για να τρέξετε το project από το command prompt θα πρέπει να πάτε στον φάκελο του project out μετα artifacts και τέλος Amphipolis_jar σε αυτό τον φάκελο πληκτρολογήστε την εντολή java -jar Amphipolis.jar και το πρόγραμμα θα εκτελεστεί.

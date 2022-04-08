@@ -1,0 +1,233 @@
+            Αντώνης Μπελιμεζάκης 1536(ΤΕΜ).
+			12/01/2021
+			
+			ΦΑΣΗΒ-ΥΛΟΠΟΙΗΣΗ.
+			
+			Η υλοποίησή μου βασίζεται στο μοντέλο MVC(Model-View-Controller).Το Model περιέχει τους κανόνες του παιχνιδιού,το View περιέχει κυρίως το γραφικό κομμάτι του παιχνιδιού και ο Controller συνδυαζει τα προηγούμενα τα πακέτα για να παραχθεί η τελική υλοποίηση είναι με λίγα λόγια ο "εγκέφαλος" της εφαρμογής.Γενικά η αναφορά μου για την δεύτερη φάση δεν είναι καλογραμμένη γιατί έληξε η άδεια που χρησιμοποιούσα το word την κάνω στο σημειωματάριο.
+
+
+
+				Package Model.
+				
+				
+ 
+				ΚΛΑΣΕΙΣ.
+				public class Archaeologist implements Character:
+				public String getColor()
+				public void setColor(String color)
+				
+				public class Assistant implements Character:
+				public String getColor()
+				public void setColor(String color)
+				
+				public class BigBottomSkeleton extends Tiles(empty)
+				public class BigTopSkeleton extends Tiles (empty)
+				public class BlueAmphora extends Tiles(empty)
+				public class Board:
+				public Board()
+				public static void putOnTableau()
+				public boolean playerFinishedTheRound()
+				public Player turnPlayer(int min,int max)
+				public void setNewRound()
+				public boolean roundIsOver()
+				public Player getCurrentPlayer(int num)
+				public static ArrayList<Tiles> getTiles()
+				public static ArrayList<Tiles> getLandslides() 
+				public static ArrayList<Tiles> getAmphoras()
+				public ArrayList<Player> getPlayers()
+				
+				public class BrownAmphora extends Tiles(Empty)
+				public class Caryatid extends Tiles(Empty)
+				public  interface Character:	
+				public String getColor()
+				public void setColor(String color)
+				
+				public class Digger implements Character:
+				public String getColor()
+				public void setColor(String color)
+				
+				
+				public class GreenAmphora extends Tiles(Empty)
+				public class GreenMosaic extends Tiles(Empty)
+				public class Landslide extends Tiles
+				
+				public class Player:
+				public Player()
+				public  BlueAmphora getBlueAmphora()
+				public  Sphinx getSphinx()
+				public  RedMosaic getRedMosaic()
+				public  RedAmphora getRedAmphora()
+				public PurpleAmphora getPurpleAmphora()
+				public  GreenMosaic getGreenMosaic()
+				public  GreenAmphora getGreenAmphora()
+				public  Caryatid getCaryatid()
+				public  BrownAmphora getBrownAmphora()
+				public   YellowAmphora getYellowAmphora()
+				public  YellowMosaic getYellowMosaic()
+				public  BigBottomSkeleton getBig_Bottom()
+				public  BigTopSkeleton getBig_Top()
+				public SmallBottomSkeleton getSmall_Bottom()
+				public  SmallTopSkeleton getSmall_Top()
+				public Player(String name,int tiles,boolean hasPlayed1,boolean hasPlayed2,boolean hasPlayed3,
+           boolean hasPlayed4)
+				public void setColor(String color )
+				public ArrayList<Landslide> getLandslides()
+				public  ArrayList<BlueAmphora> getBl_amphoras()
+				public  ArrayList<BrownAmphora> getBr_amphoras()
+				public  ArrayList<PurpleAmphora> getPurple_amphoras()
+				public  ArrayList<GreenAmphora> getGr_amphoras()
+				public  ArrayList<RedAmphora> getRed_amphoras()
+				public  ArrayList<YellowAmphora> getYl_amphoras()
+				public  ArrayList<Sphinx> getSphinxs()
+				public  ArrayList<GreenMosaic> getGr_mosaics()
+				public  ArrayList<RedMosaic> getRed_mosaics()
+				public  ArrayList<YellowMosaic> getYl_mosaics()
+				public  ArrayList<BigBottomSkeleton> getBBS()
+				public  ArrayList<BigTopSkeleton> getBTS()
+				public ArrayList<SmallBottomSkeleton> getSBS()
+				public  ArrayList<SmallTopSkeleton> getSTS()
+				public ArrayList<Caryatid> getCaryatids()
+				public  void setCounter(int counter)
+				public  int getCounter()
+				public String getColor()
+				public void setScore(int score2)
+				public int getScore()
+				public  void setHasPlayed1(boolean hasPlayed1)
+				public void setHasPlayed2(boolean hasPlayed2)
+				public void setHasPlayed3(boolean hasPlayed3)
+				public void setHasPlayed4(boolean hasPlayed4)
+				public boolean getHasPlayed1()
+				public boolean getHasPlayed2()
+				public boolean getHasPlayed3()
+				public boolean getHasPlayed4()
+				public void setTiles(int tiles)
+				public String getName()
+				
+				Αυτή είναι μια κλάση που έχω κάνει αλλαγές σε σχέση με την φάσηΑ πρόσθεσα κάποιες μεθόδους(τις get) που αφορούν τις κάρτες του παιχνιδιού μεμονωμένες κάρτες και πολλαπλές που είναι τα array lists.Επίσης διέγραψα και κάποιες μεθόδους που είχα κάνει στην φάση Α.
+				
+				public class Professor implements Character:
+				public static void setColor(int color)
+				public static String getColor()
+				public class PurpleAmphora extends Tiles (Empty)
+				public class RedAmphora extends Tiles
+				public class RedMosaic extends Tiles(Empty)
+				public class SmallBottomSkeleton extends Tiles(Empty)
+				public class SmallTopSkeleton extends Tiles(Empty)
+				public class Sphinx extends Tiles(Empty)
+				public class Thief(Αυτή την κλάση δεν την υλοποίησα τελικά δεν κάνει κάτι φοβάμαι να την διαγράψω μήπως δεν κάνει compile μετά)
+				public abstract class Tiles(Empty)
+				public class YellowAmphora extends Tiles(Empty)
+				public class YellowMosaic extends Tiles(Empty).
+
+
+				Package View.
+
+				Κλάση View:
+				public View(Player currentPlayer)
+				public void initCards()
+				public static BlueAmphora getBlueAmphora()
+				public static Sphinx getSphinx()
+				public static RedMosaic getRedMosaic()
+				public static RedAmphora getRedAmphora()
+				public static PurpleAmphora getPurpleAmphora()
+				public static GreenMosaic getGreenMosaic() 
+				public static GreenAmphora getGreenAmphora()
+				public static Caryatid getCaryatid()
+				public static BrownAmphora getBrownAmphora()
+				public static  YellowAmphora getYellowAmphora()
+				public static YellowMosaic getYellowMosaic()
+				public static BigBottomSkeleton getBig_Bottom()
+				public static SmallBottomSkeleton getSmall_Bottom()
+				public static SmallTopSkeleton getSmall_Top()
+				public void actionPerformed(ActionEvent e) 
+				
+				Οσον αφορά σε αυτό το πακέτο διέγραψα τις κλάσεις που δεν υλοποίησα και άφησα ένα μόνο αρχείο το οποίο μου βγήκε μεγάλο.Η action performed() δεν υπήρχε στην πρώτη φάση σε αυτό το αρχείο εγώ μετέφερα την μέθοδο μετά από υπόδειξη που μου έγινε από το IDE.Επίσης μετέφερα και κάποιες από τις μεθόδους του model γιατί είχα προβλήματα όταν έγραφα τον κώδικα δεν μπορούσα να αναφερθώ σε άλλες μεθόδους άλλου πακέτου και λανθασμένα τις μετέφερα και στο View.
+
+				Controller.
+
+				Κλάση Controller:
+				public Controller() 
+				public static void setCounter2(int counter)
+				public static int getCounter2()
+				public static ArrayList<JButton> getLandslides()
+				public void setScore()
+				public int getScore()
+				public static void setColor()
+				public void initialize_tableau()
+				public boolean professor_has_been_played()
+				public boolean assistant_has_been_played()
+				public boolean digger_has_been_played()
+				public boolean archaeologist_has_been_played()
+				public String getColor()
+				public static Player turnPlayer(int min,int max)
+				public static void setNewRound() 
+				public  static boolean roundIsOver()
+				public static void setCurrentPlayer(Player player)
+				public static Player getCurrentPlayer()
+				public void changePlayer()
+				public static boolean playerFinishedTheRound()
+				public Player theWinnerIs()
+				public boolean gameFinished()
+				public static boolean landslideAreaisFull()
+				public static ArrayList<Player> getPlayers()
+				public void initaliaze_the_game_with_Thief()
+				public void pullAllTheCardsTief()
+				public void setScoreforThief(int score)
+				public int getScoreforThief()
+				public void GetWinnerThiefOrPlayer()
+				public static void main(String[] args)
+
+				Σε σχέση με την Α φάση χρησιμοποίησα counters γιατί ήθελα να μετράω τις κινήσεις που έκανε ο κάθε παίκτης στον γύρο του.
+
+
+				Γενικά το project με δυσκόλεψε περισσότερο από όσο θα περίμενα η υλοποίηση που έκανα είναι βιαστική.
+
+
+				ΤΕΛΟΣ.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+				
+				
+				
+				
+				
+				
